@@ -19,11 +19,11 @@ public class Libro extends Escrito {
 
 	
 	
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*this.getPaginas();
 	}
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return this.interpretacion;
 	}

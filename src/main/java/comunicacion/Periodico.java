@@ -16,12 +16,12 @@ public class Periodico extends Escrito{
 	}
 	
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*this.getPaginas();
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
@@ -32,27 +32,27 @@ public class Periodico extends Escrito{
 		return null;
 	}
 
-	String getFecha() {
+	public String getFecha() {
 		return fecha;
 	}
 
-	void setFecha(String fecha) {
+	public void setFecha(String fecha) {
 		this.fecha = fecha;
 	}
 
-	String getPrimicia() {
+	public String getPrimicia() {
 		return primicia;
 	}
 
-	void setPrimicia(String primicia) {
+	public void setPrimicia(String primicia) {
 		this.primicia = primicia;
 	}
 
-	String getInterpretacion() {
+	public String getInterpretacion() {
 		return interpretacion;
 	}
 
-	void setInterpretacion(String interpretacion) {
+	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
 	}
 	

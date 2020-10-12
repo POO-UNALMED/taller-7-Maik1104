@@ -18,12 +18,12 @@ public class Tesis extends Escrito{
 	}
 	
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*this.getPaginas();
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return interpretacion;
 	}
@@ -34,43 +34,43 @@ public class Tesis extends Escrito{
 		return null;
 	}
 
-	String getIdea() {
+	public String getIdea() {
 		return idea;
 	}
 
-	void setIdea(String idea) {
+	public void setIdea(String idea) {
 		this.idea = idea;
 	}
 
-	String[] getArgumentos() {
+	public String[] getArgumentos() {
 		return argumentos;
 	}
 
-	void setArgumentos(String[] argumentos) {
+	public void setArgumentos(String[] argumentos) {
 		this.argumentos = argumentos;
 	}
 
-	String getConclusion() {
+	public String getConclusion() {
 		return conclusion;
 	}
 
-	void setConclusion(String conclusion) {
+	public void setConclusion(String conclusion) {
 		this.conclusion = conclusion;
 	}
 
-	String getReferencias() {
+	public String getReferencias() {
 		return referencias;
 	}
 
-	void setReferencias(String referencias) {
+	public void setReferencias(String referencias) {
 		this.referencias = referencias;
 	}
 
-	String getInterpretacion() {
+	public String getInterpretacion() {
 		return interpretacion;
 	}
 
-	void setInterpretacion(String interpretacion) {
+	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
 	}
 	
