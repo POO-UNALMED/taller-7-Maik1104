@@ -22,11 +22,11 @@ public class Libro extends Escrito {
 	public int palabrasTotales(int palabrasPagina) {
 		return palabrasPagina*this.getPaginas();
 	}
-	@Override
+	
 	public String interpretacion() {
-		return interpretacion;
+		return this.getInterpretacion();
 	}
-	@Override
+	
 	public String toString() {
 		String a = this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + this.co_autor + "\n" + this.editorial+ "\n" +this.edicion;
 		return a;
