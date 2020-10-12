@@ -28,8 +28,9 @@ public class Periodico extends Escrito{
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
+		String a = this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + this.fecha + "\n" + this.primicia;
+
+		return a;
 	}
 
 	public String getFecha() {

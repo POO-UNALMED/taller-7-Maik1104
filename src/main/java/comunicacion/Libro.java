@@ -29,8 +29,8 @@ public class Libro extends Escrito {
 	}
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
+		String a = this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + this.co_autor + "\n" + this.editorial+ "\n" +this.edicion;
+		return a;
 	}
 	public String getCo_autor() {
 		return co_autor;

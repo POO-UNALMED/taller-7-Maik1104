@@ -20,7 +20,11 @@ public class Alfabeto extends Pictograma{
 	}
 
 	public String toString() {
-		return null;
+		String a = letras[0]+", ";
+		for (int i = 1; i<letras.length-1; i++) {
+			a = a + letras[i] + ", ";
+		}
+		return a+letras[letras.length-1];
 	}
 
 	public String[] getLetras() {
