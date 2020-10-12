@@ -24,8 +24,7 @@ public class Libro extends Escrito {
 	}
 	@Override
 	public String interpretacion() {
-		// TODO Auto-generated method stub
-		return this.interpretacion;
+		return interpretacion;
 	}
 	@Override
 	public String toString() {
