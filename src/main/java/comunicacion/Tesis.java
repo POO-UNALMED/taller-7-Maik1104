@@ -19,7 +19,7 @@ public class Tesis extends Escrito{
 	
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
-		return palabrasPagina*this.getPaginas();
+		return palabrasPagina*this.getPaginas()*5;
 	}
 
 	@Override

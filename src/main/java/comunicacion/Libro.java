@@ -20,11 +20,12 @@ public class Libro extends Escrito {
 	
 	
 	public int palabrasTotales(int palabrasPagina) {
-		return palabrasPagina*this.getPaginas();
+		return palabrasPagina*this.getPaginas()*2;
 	}
 	
 	public String interpretacion() {
-		return this.getInterpretacion();
+		// TODO Auto-generated method stub
+		return interpretacion;
 	}
 	
 	public String toString() {
